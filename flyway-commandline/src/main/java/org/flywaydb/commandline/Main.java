@@ -117,8 +117,10 @@ public class Main {
                     LOG.error(e.toString());
                 }
             }
-            System.exit(1);
+            Runtime.getRuntime().halt(0);
         }
+        Runtime.getRuntime().halt(0);
+
     }
 
     static void validateArgs(String[] args) {
